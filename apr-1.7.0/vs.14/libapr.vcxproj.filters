@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="apr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClCompile Include="..\atomic\win32\apr_atomic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dso\win32\dso.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\encoding\apr_escape.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\fileacc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\filepath_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\fullrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\mktemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\unix\tempdir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\dir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\filedup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\filepath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\filestat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\filesys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\flock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\open.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\pipe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\readwrite.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file_io\win32\seek.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\locks\win32\proc_mutex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\locks\win32\thread_cond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\locks\win32\thread_mutex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\locks\win32\thread_rwlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memory\unix\apr_pools.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\unix\errorcodes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\unix\getopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\unix\otherchild.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\unix\version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\charset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\env.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\start.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\win32\utf8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mmap\unix\common.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mmap\win32\mmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\unix\inet_ntop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\unix\inet_pton.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\unix\multicast.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\unix\sockaddr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\unix\socket_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\win32\sendrecv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\win32\sockets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network_io\win32\sockopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\passwd\apr_getpass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\poll\unix\poll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\poll\unix\pollcb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\poll\unix\pollset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\poll\unix\select.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\poll\unix\wakeup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\random\unix\apr_random.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\random\unix\sha2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\random\unix\sha2_glue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shmem\win32\shm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_cpystrn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_cstr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_fnmatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_snprintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_strings.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_strnatcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strings\apr_strtok.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tables\apr_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tables\apr_skiplist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tables\apr_tables.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threadproc\win32\proc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threadproc\win32\signals.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threadproc\win32\thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threadproc\win32\threadpriv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\time\win32\time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\time\win32\timestr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user\win32\groupinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user\win32\userinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ResourceCompile Include="..\libapr.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+boost:
+b2.exe stage --toolset=msvc-14.1 --stagedir="vc141_xp" link=static threading=multi --build-type=complete
+
+oss
+LTAI60i7uICFb9J0        rMfSLTUazDWkZCMl9vLZTMCMmCXwbP

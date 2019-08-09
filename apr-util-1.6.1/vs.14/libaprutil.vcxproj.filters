@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="apr_dbd_odbc">
+      <UniqueIdentifier>{81f84faf-1b74-40a3-89fe-7be6b1214e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apr_ldap">
+      <UniqueIdentifier>{9a43168d-2fdf-4211-8581-f1ed86cadb1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dbd\apr_dbd_odbc.c">
+      <Filter>apr_dbd_odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ldap\apr_ldap_init.c">
+      <Filter>apr_ldap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ldap\apr_ldap_option.c">
+      <Filter>apr_ldap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ldap\apr_ldap_rebind.c">
+      <Filter>apr_ldap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_brigade.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_alloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_eos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_flush.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_heap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_mmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_pipe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_pool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_refcount.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_simple.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\buckets\apr_buckets_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_crypto.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_md4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_passwd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\apr_siphash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\crypt_blowfish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\getuuid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\uuid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\apr_dbm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\apr_dbm_sdbm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\sdbm\sdbm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\sdbm\sdbm_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\sdbm\sdbm_lock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbm\sdbm\sdbm_pair.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\encoding\apr_base64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hooks\apr_hooks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memcache\apr_memcache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apr_date.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apr_queue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apr_reslist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apr_rmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apr_thread_pool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apu_dso.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc\apu_version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\redis\apr_redis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\strmatch\apr_strmatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uri\apr_uri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xlate\xlate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xml\apr_xml.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ldap\apr_ldap_stub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ldap\apr_ldap_url.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbd\apr_dbd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="apu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="apr_ldap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="apu_want.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\libaprutil.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
